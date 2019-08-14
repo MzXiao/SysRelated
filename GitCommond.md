@@ -9,6 +9,13 @@ git init
 git add -A
 git commit -m "commit message"
 git log 
-git status
 
-git reset 
+git status --hard COMMIT_ID
+git reflog 
+
+
+###Linking Github---save your work on github
+
+
+
+###Working With Others---
