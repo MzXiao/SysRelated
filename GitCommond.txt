@@ -9,9 +9,24 @@ git init
 git add -A
 git commit -m "commit message"
 git log 
+git log --graph --pretty=oneline --abbrev-commit
 
-git status --hard COMMIT_ID
+git remove --cached //stage file to workspace
+
+git reset --hard COMMIT_ID
 git reflog 
+
+(Branching)
+git checkout -b New_Branch
+[git branch New_Branch]
+[git checkout New_Branch]
+
+git branch -d New_Branch
+
+git merge [--no-ff -m "msg"]  New_Branch // no fast forward
+
+
+
 
 
 ###Linking Github---save your work on github
@@ -36,6 +51,15 @@ git remote add origin git@github.com:YOUR_REPO_ADDR
 git push -u origin master //first time push
 git push origin master
 
+git pull
+[git clone only set orign/master to your local master]
+git branch --set-upstream-to=origin/dev dev
+
+
 
 
 ###Working With Others---
+git clone 
+fork 
+git pull
+git rebase
