@@ -12,6 +12,7 @@ git log
 git log --graph --pretty=oneline --abbrev-commit
 
 git remove --cached //stage file to workspace
+git remote set-url origin git@github.com:User/project-new.git
 
 git reset --hard COMMIT_ID
 git reflog 
