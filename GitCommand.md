@@ -54,6 +54,8 @@ git push origin master
 
 git pull
 [git clone only set orign/master to your local master]
+git branch -a 
+git branch -d dev origin/dev
 git branch --set-upstream-to=origin/dev dev
 
 
