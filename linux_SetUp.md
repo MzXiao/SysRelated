@@ -1,11 +1,15 @@
 ## Ubuntu[18.04] 
 #### 1.Set Mouse Speed
-```
+```sh
 xinput --list
 xinput --list-props [device id]
 xinput --set-prop [device id] [value]
 sudo vim /ect/profile.d/mouse.sh
     [set mouse commond]
 ```
-
+### 2.Wifi Adapter RTL8812AU
+```sh
+lsusb [-v]
+sudo modprobe -a rtl8812au
+```
 
