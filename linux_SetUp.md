@@ -1,5 +1,5 @@
-##Ubuntu[18.04] 
-####1.Set Mouse Speed
+## Ubuntu[18.04] 
+#### 1.Set Mouse Speed
 ```
 xinput --list
 xinput --list-props [device id]
