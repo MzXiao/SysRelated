@@ -1,10 +1,12 @@
 ### Preset---git config
+```
 git config --list
 git config --global user.name YOURNAME
 git config --global user.email YOUREMAIL
-
+```
 
 ### Local Work---into your project file
+```
 git init
 git add -A
 git commit -m "commit message"
@@ -25,13 +27,13 @@ git checkout -b New_Branch
 git branch -d New_Branch
 
 git merge [--no-ff -m "msg"]  New_Branch // no fast forward
-
+```
 
 
 
 
 ### Linking Github---save your work on github
-
+```
 1.Github SSH
 ssh-keygen -t rsa -C "Github account email address"
 cat ~/.ssh/id_rsa.pub
@@ -57,12 +59,14 @@ git pull
 git branch -a 
 git branch -d dev origin/dev
 git branch --set-upstream-to=origin/dev dev
-
+```
 
 
 
 ### Working With Others---
+```
 git clone 
 fork 
 git pull
 git rebase
+```
