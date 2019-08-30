@@ -13,3 +13,10 @@ lsusb [-v]
 sudo modprobe -a rtl8812au
 ```
 
+### 3.Fix Time
+```sh
+sudo apt-get install ntpdate
+ntpdate cn.pool.ntp.org
+date 
+timedatectl
+```
