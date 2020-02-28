@@ -1,5 +1,5 @@
 ## 1.find 
-```
+```sh
 find .
 find . -name **
 find . | grep **
@@ -13,7 +13,7 @@ command1 || command2 ||...
 ```
 
 ## 3.Spectial Virables
-```
+```sh
 mkdir ~/dirold ;cd -
 $_
 !$
@@ -22,7 +22,7 @@ $?
 ```
 
 ## 4.Unix/Linux Users and groups
-```
+```sh
 sudo passwd
 
 chown -R 'whoami':root /
@@ -54,9 +54,14 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted
 ```
 
 ### 6.rm  ls ll
-```
+```sh
 ls -l | grep "^-"
 ls -l | grep "^d"
 find . -type f | grep "^-" | wc -l
 find . -name *.txt | xargs rm -f 
+```
+
+### 7.delete a file
+```sh
+echo "" > filename
 ```
