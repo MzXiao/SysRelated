@@ -30,6 +30,7 @@ chown -R 'whoami':root /
 chmod u=rwx *
 
 ```
+
 ### 5.ubuntu source
 ```
 mv /etc/apt/source.list /etc/apt/source.list.d
@@ -50,4 +51,12 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
 
 
+```
+
+### 6.rm  ls ll
+```
+ls -l | grep "^-"
+ls -l | grep "^d"
+find . -type f | grep "^-" | wc -l
+find . -name *.txt | xargs rm -f 
 ```
