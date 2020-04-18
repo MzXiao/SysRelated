@@ -20,3 +20,11 @@ ntpdate cn.pool.ntp.org
 date 
 timedatectl
 ```
+
+### 4.
+```sh
+sudo passwd
+sudo apt install ibus-pinyin
+sudo apt install tmux
+sudo apt install zsh //ohmyzsh
+```
