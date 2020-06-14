@@ -3,6 +3,7 @@
 git config --list
 git config --global user.name YOURNAME
 git config --global user.email YOUREMAIL
+git config --global http.proxy http://127.0.0.1/1081
 ```
 
 ### Local Work---into your project file
