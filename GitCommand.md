@@ -28,6 +28,18 @@ git checkout -b New_Branch
 git branch -d New_Branch
 
 git merge [--no-ff -m "msg"]  New_Branch // no fast forward
+
+
+git push origin --delete origin_branch //delete remote branch, origin must have
+
+//detached head
+git checkout abcd // to position abcd, detached head
+git commit ... git branch temp efgh// commit some code,create temp branch
+git checkout master , git merge temp // save change to master
+
+(tag)
+git checkout tag1
+
 ```
 
 
