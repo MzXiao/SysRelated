@@ -67,6 +67,9 @@ git remote add origin git@github.com:YOUR_REPO_ADDR
 git push -u origin master //first time push
 git push origin master
 
+-- delete remote branch
+git push origin --delete feature_20210325_appclass
+
 git pull
 [git clone only set orign/master to your local master]
 git branch -a 
