@@ -86,3 +86,18 @@ fork
 git pull
 git rebase
 ```
+
+### Best Pratice
+```
+remote:
+git branch -vv
+git remote -v
+git remote show origin
+1.本地新建分支    推送到origin
+git checkout -b feature_new 
+git push origin feature_new:feature_new
+git branch -u orgin/feature_new
+2.删除远程分支
+git push origin :remote_branch_delete
+3.
+```
